@@ -19,6 +19,6 @@ variable "environment" {
 }
 
 variable "sg_tags" {
-    type = map(sring)
+    type = map(string)
     default = {}
 }
